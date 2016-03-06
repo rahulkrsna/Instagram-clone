@@ -8,7 +8,7 @@
         <!--Login View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController storyboardIdentifier="LoginController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="LoginController" id="BYZ-38-t0r" customClass="LoginViewController" customModule="PictureShare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -58,7 +58,7 @@
         <!--User-->
         <scene sceneID="UyQ-yF-K5m">
             <objects>
-                <viewController id="38O-h6-mZ1" customClass="UserViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="38O-h6-mZ1" customClass="UserViewController" customModule="PictureShare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="Slg-Pz-hkb"/>
                         <viewControllerLayoutGuide type="bottom" id="XIP-qq-BZb"/>
@@ -129,7 +129,7 @@
         <!--Camera-->
         <scene sceneID="89G-At-Gii">
             <objects>
-                <viewController id="nr3-Es-BEy" customClass="CaptureViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="nr3-Es-BEy" customClass="CaptureViewController" customModule="PictureShare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="cKl-La-Tmz"/>
                         <viewControllerLayoutGuide type="bottom" id="BbM-eJ-kk1"/>
@@ -195,7 +195,7 @@
         <!--User Information View Controller-->
         <scene sceneID="4Xd-DT-pH3">
             <objects>
-                <viewController id="aPV-pJ-Av7" customClass="UserInformationViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="aPV-pJ-Av7" customClass="UserInformationViewController" customModule="PictureShare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="nLT-f5-1pR"/>
                         <viewControllerLayoutGuide type="bottom" id="oOV-Ga-EfH"/>
@@ -257,7 +257,7 @@
         <!--Home-->
         <scene sceneID="s4A-OV-9wD">
             <objects>
-                <viewController storyboardIdentifier="HomeView" id="KGl-gO-CSb" customClass="UserDetailsViewController" customModule="Instagram_clone" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeView" id="KGl-gO-CSb" customClass="UserDetailsViewController" customModule="PictureShare" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="UnQ-JY-ylf"/>
                         <viewControllerLayoutGuide type="bottom" id="IMr-bJ-HMN"/>
@@ -270,7 +270,7 @@
                                 <rect key="frame" x="0.0" y="20" width="320" height="499"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InstagramCell" rowHeight="293" id="wYR-Il-iQo" customClass="InstagramCell" customModule="Instagram_clone" customModuleProvider="target">
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="InstagramCell" rowHeight="293" id="wYR-Il-iQo" customClass="InstagramCell" customModule="PictureShare" customModuleProvider="target">
                                         <rect key="frame" x="0.0" y="28" width="320" height="293"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="wYR-Il-iQo" id="gts-qT-hbf">

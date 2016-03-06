@@ -31,7 +31,7 @@ class UserInformationViewController: UIViewController {
 
     @IBAction func onBack(sender: AnyObject) {
         
-        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("HomeView")
+        let viewController:UIViewController = UIStoryboard(name: "Main", bundle: nil).instantiateViewControllerWithIdentifier("UserLoginSuccess")
         self.presentViewController(viewController, animated: true, completion: nil)
         
     }
